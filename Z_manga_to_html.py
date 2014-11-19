@@ -47,4 +47,4 @@ np.close()
 os.popen('firefox .part1.html')
 os.popen('exit')
 import commands
-comands.getsatusoutput('exit')
+commands.getsatusoutput('exit')
