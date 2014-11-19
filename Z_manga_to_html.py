@@ -44,7 +44,5 @@ np.write('\n\n<a href=".part2.html"> <<-- Back to Top</a>')
 np.write("</html>")
 p.close()
 np.close()
-os.popen('firefox .part1.html')
+os.popen('firefox .part1.html || chromium-browser .part1.html || google-chrome .part1.html')
 os.popen('exit')
-import commands
-commands.getsatusoutput('exit')
